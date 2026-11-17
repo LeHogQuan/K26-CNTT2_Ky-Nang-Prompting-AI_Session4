@@ -1,0 +1,38 @@
+1. 
+
+input:
+- mã đơn hàng
+- tên khách hàng
+- sản phẩm
+- số lượng
+- đơn giá
+
+output:
+- thông tin đơn hàng
+- tổng tiền
+- trạng thái đơn hàng
+- thông báo lỗi nếu có
+
+2. prompt
+
+bạn là nhân viên xử lý đơn hàng
+
+hãy kiểm tra thông tin, tính tổng tiền và xác định trạng thái đơn hàng
+
+nếu thiếu hoặc sai dữ liệu thì thông báo lỗi, không tự đoán thông tin
+
+thực hiện từng bước và giữ nguyên định dạng nếu phải tiếp tục câu trả lời
+
+3. kết quả 
+
+input:
+- mã đơn: 123
+- khách hàng: nguyễn văn a
+- sản phẩm: bàn phím
+- số lượng: 2
+- đơn giá: 300000
+
+output:
+- mã đơn: 234
+- tổng tiền: 600000 đồng
+- trạng thái: hợp lệ
