@@ -1,0 +1,48 @@
+1.
+
+bài toán: tự động xử lý đơn hàng
+
+input:
+- mã đơn hàng
+- tên khách hàng
+- sản phẩm
+- số lượng
+- đơn giá
+
+output:
+- thông tin đơn hàng
+- tổng tiền
+- trạng thái đơn hàng
+- thông báo lỗi
+
+2.prompt
+
+prompt 1:
+kiểm tra thông tin đơn hàng, phát hiện dữ liệu thiếu hoặc sai
+
+prompt 2:
+tính tổng tiền và xác định trạng thái đơn hàng
+
+prompt 3:
+tổng hợp kết quả, nếu bị ngắt thì tiếp tục từ phần còn thiếu
+
+3. kết quả chạy thử
+
+input:
+- mã đơn: 123
+- sản phẩm: bàn phím
+- số lượng: 2
+- đơn giá: 300000
+
+output:
+- mã đơn: 234
+- tổng tiền: 600000 đồng
+- trạng thái: hợp lệ
+
+4. xử lý lỗi
+
+nếu thiếu thông tin thì yêu cầu bổ sung
+
+nếu dữ liệu sai thì thông báo lỗi
+
+không tự ý đoán dữ liệu
