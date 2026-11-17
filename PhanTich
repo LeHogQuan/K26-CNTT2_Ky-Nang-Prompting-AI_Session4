@@ -1,0 +1,31 @@
+1.
+
+giải pháp 1:
+
+hãy kiểm tra đơn hàng, tính tổng tiền và báo lỗi nếu thiếu dữ liệu
+
+giải pháp 2:
+
+hãy kiểm tra thông tin đơn hàng theo từng bước, tính tổng tiền, kiểm tra dữ liệu sai hoặc thiếu và thông báo lỗi nếu có
+
+2. bảng so sánh
+
+| tiêu chí | giải pháp 1 | giải pháp 2 |
+|---|---|---|
+| dễ hiểu | cao | trung bình |
+| tốn token | ít | nhiều |
+| kiểm tra lỗi | cơ bản | tốt |
+| tốc độ | nhanh | chậm hơn |
+
+3. lựa chọn 
+
+chọn giải pháp 2 vì kiểm tra dữ liệu kỹ hơn và hạn chế sai sót
+
+input:
+- sản phẩm: bàn phím
+- số lượng: 2
+- đơn giá: 300000
+
+output:
+- tổng tiền: 600000 đồng
+- trạng thái: hợp lệ
